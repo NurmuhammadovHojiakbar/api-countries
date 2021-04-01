@@ -165,7 +165,8 @@ body{
 /* DARK MODE  */
 body.dark,
 .dark .site-header__button,
-.dark input::placeholder {
+.dark input::placeholder ,
+.dark input{
     color: #fff;
 }
 .dark .site-main{
