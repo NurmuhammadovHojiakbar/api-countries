@@ -163,13 +163,18 @@ body{
     font-weight: normal;
 }
 /* DARK MODE  */
-body.dark,.dark .site-header__button, .dark input::placeholder {
+body.dark,
+.dark .site-header__button,
+.dark input::placeholder {
     color: #fff;
 }
 .dark .site-main{
     background-color: var(--dark-mode);
 }
-.dark .site-header, .dark .country-info-container, .dark .form-search-container, .dark input{
+.dark .site-header,
+.dark .country-info-container,
+.dark .form-search-container,
+.dark input{
     background-color: var(--dark-color);
 }
 
