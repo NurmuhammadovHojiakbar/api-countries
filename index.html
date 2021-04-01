@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-Template</title>
+    <!-- CSS LINKS  -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header-container">
+            <a class="site-header__logo"><img src="images/site-logo.svg" alt="Site Logo" width="234" height="33"></a>
+            <button class="site-header__button"><img src="images/moon.svg" width="20" height="20">Dark mode</button>
+        </div>    
+    </header>
+
+    <main class="site-main">
+        <form class="site-main-form">
+            <div class="form-search-container container-style">
+                <input class="input-search-button" type="image" src="images/search.svg" alt="Search Button Image" width="18" height="18" aria-label="Search button">
+                <input class="input-search" type="search" name="search" id="search" placeholder="Search for a country…" required aria-label="Search for a country">
+            </div>
+            <div class="filter container-style">
+                <input class="region-list" type="text" name="region-list" list="region" placeholder="Filter by Region">
+                <datalist id="region">
+                    <option>Africa</option>
+                    <option>America</option>
+                    <option>Asia</option>
+                    <option>Europe</option>
+                    <option>Oceania</option>
+                </datalist>
+            </div>
+        </form>
+
+        <section class="countries">
+            <div class="country-info-container container-style">
+                <img src="images/germany.png" alt="Germany" width="260" height="150">
+                <div class="country-info-text">
+                    <h2 class="country-name">Germany</h2>
+                    <p class="container-info">Population:<span> 81,770,900</span></p>
+                    <p class="container-info">Region:<span> Europe</span></p>
+                    <p class="container-info">Capital:<span> Berlin</span></p>
+                </div>
+            </div>
+            <div class="country-info-container container-style">
+                <img src="images/usa.png" alt="United States of America" width="260" height="150">
+                <div class="country-info-text">
+                    <h2 class="country-name">United States of America</h2>
+                    <p class="container-info">Population:<span> 81,770,900</span></p>
+                    <p class="container-info">Region:<span> Europe</span></p>
+                    <p class="container-info">Capital:<span> Berlin</span></p>
+                </div>
+            </div>
+            <div class="country-info-container container-style">
+                <img src="images/brasil.png" alt="Brasilia" width="260" height="150">
+                <div class="country-info-text">
+                    <h2 class="country-name">Brasilia</h2>
+                    <p class="container-info">Population:<span> 81,770,900</span></p>
+                    <p class="container-info">Region:<span> Europe</span></p>
+                    <p class="container-info">Capital:<span> Berlin</span></p>
+                </div>
+            </div>
+            <div class="country-info-container container-style">
+                <img src="images/ireland.png" alt="Ireland" width="260" height="150">
+                <div class="country-info-text">
+                    <h2 class="country-name">Iceland</h2>
+                    <p class="container-info">Population:<span> 81,770,900</span></p>
+                    <p class="container-info">Region:<span> Europe</span></p>
+                    <p class="container-info">Capital:<span> Berlin</span></p>
+                </div>
+            </div>
+            <div class="country-info-container container-style">
+                <img src="images/afganistan.png" alt="Afghanistan" width="260" height="150">
+                <div class="country-info-text">
+                    <h2 class="country-name">Afghanistan</h2>
+                    <p class="container-info">Population:<span> 81,770,900</span></p>
+                    <p class="container-info">Region:<span> Europe</span></p>
+                    <p class="container-info">Capital:<span> Berlin</span></p>
+                </div>
+            </div>
+            <div class="country-info-container container-style">
+                <img src="images/uk.png" alt="Iceland" width="260" height="150">
+                <div class="country-info-text">
+                    <h2 class="country-name">United Kingdom</h2>
+                    <p class="container-info">Population:<span> 81,770,900</span></p>
+                    <p class="container-info">Region:<span> Europe</span></p>
+                    <p class="container-info">Capital:<span> Berlin</span></p>
+                </div>
+            </div>
+            <div class="country-info-container container-style">
+                <img src="images/albania.png" alt="Albania" width="260" height="150">
+                <div class="country-info-text">
+                    <h2 class="country-name">Albania</h2>
+                    <p class="container-info">Population:<span> 81,770,900</span></p>
+                    <p class="container-info">Region:<span> Europe</span></p>
+                    <p class="container-info">Capital:<span> Berlin</span></p>
+                </div>
+            </div>
+            <div class="country-info-container container-style">
+                <img src="images/algeria.png" alt="Algeria" width="260" height="150">
+                <div class="country-info-text">
+                    <h2 class="country-name">Algeria</h2>
+                    <p class="container-info">Population:<span> 81,770,900</span></p>
+                    <p class="container-info">Region:<span> Europe</span></p>
+                    <p class="container-info">Capital:<span> Berlin</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
